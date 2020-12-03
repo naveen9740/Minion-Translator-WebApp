@@ -6,7 +6,7 @@ console.log(txtInput);
 let outputDiv=document.querySelector('#output');
 console.log(outputDiv);
 
-let serverUrl="https://api.funtranslations.com/translate/minion.json";
+let serverUrl="https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
 
 function getTranslatedUrl(txt){
     return serverUrl+"?"+"text="+txt;
