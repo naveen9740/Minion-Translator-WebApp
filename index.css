@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(175, 211, 224);
+}
+.header{
+    border: 3px solid #030303;
+    font-size: 1.7rem;
+    background-color:#ecc19c;
+    color: #3b4d61;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    margin:1px 1px;
+    font-size: 4rem;
+}
+p,#outputPara{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    margin: 15px;
+
+}
+.txt-input{
+    height: 10vh;
+    display:block;
+    width:40%;
+    margin:1rem auto;
+    padding:1rem;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
+}
+#btn-translate{
+    display: block;
+    margin:auto;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 22px;
+    width: 10rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #ecc19c;
+}
+#btn-translate:hover{
+    background-color: #f3b888;
+}
+#ul-list{
+    text-align: center;
+}
+
+.footer{
+    /* border: 2px solid red; */
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    background-color:  #ecc19c ;
+}
+.footer h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin:5px 1px;
+    font-size: 2rem;
+}
+.footer li{
+    list-style: none;
+    display: inline;
+    padding: 5px 40px;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0px 15px;
+}
+.footer a:hover{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
